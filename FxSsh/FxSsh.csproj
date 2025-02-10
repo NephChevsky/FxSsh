@@ -15,4 +15,12 @@
     <Copyright>Copyright © Aimeast 2015-$([System.DateTime]::Now.Year)</Copyright>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\dev\HoneyPot\FxSsh\FxSsh\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\dev\HoneyPot\FxSsh\FxSsh\.editorconfig" />
+  </ItemGroup>
+
 </Project>
